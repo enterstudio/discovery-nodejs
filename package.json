@@ -11,7 +11,9 @@
     "test-unit": "istanbul cover ./node_modules/mocha/bin/_mocha test/unit",
     "lint": "eslint .",
     "autofix": "eslint --fix .",
-    "codecov": "npm run test && (codecov || true)"
+    "codecov": "npm run test && (codecov || true)",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -58,7 +60,8 @@
     "uglifyify": "^3.0.4",
     "watson-developer-cloud": "^2.14.8",
     "watson-react-components": "^0.5.8",
-    "whatwg-fetch": "^2.0.1"
+    "whatwg-fetch": "^2.0.1",
+    "snyk": "^1.88.0"
   },
   "devDependencies": {
     "casperjs": "^1.1.3",
@@ -77,5 +80,6 @@
       "react"
     ],
     "ignore": "node_modules"
-  }
+  },
+  "snyk": true
 }
