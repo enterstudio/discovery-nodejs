@@ -53,7 +53,7 @@
     "react-addons-shallow-compare": "^15.4.2",
     "react-daterange-picker": "^1.1.0",
     "react-dates": "^4.3.2",
-    "react-dom": "^15.4.2",
+    "react-dom": "^16.0.1",
     "recharts": "^0.20.2",
     "uglifyify": "^3.0.4",
     "watson-developer-cloud": "^2.14.8",
